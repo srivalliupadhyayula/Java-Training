@@ -1,3 +1,4 @@
+package java_hackerthon;
 import java.util.HashMap;
 import java.util.Scanner;
 //Q5. Given an array prints the unique numbers and also print the number of occurrences of duplicate numbers. 

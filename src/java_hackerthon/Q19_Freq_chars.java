@@ -1,9 +1,11 @@
-//Q20. WJP to find total number of repeated integers, uppercase and lowercase character in the give string
+package java_hackerthon;
+//Q19. WJP to display number of occurrence of all character *
+
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Q20_repeated_digs_chars {
-
+public class Q19_Freq_chars {
+	
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -26,23 +28,8 @@ public class Q20_repeated_digs_chars {
 			charCount.put(s.charAt(i), count);
 		}
 		
-		
 		System.out.println(charCount);
-		
 		System.out.println();
-		
-		System.out.println("The characters which occur more than once are:");
-		
-		for (Character c : charCount.keySet()) {
-			
-			Integer count = charCount.get(c);
-			
-			if (count > 1) {
-				System.out.println("'"+c+"':"+count+" times.");
-			}
-		}
-
-			
 		  sc.close();
 	}
 

@@ -1,9 +1,9 @@
-//Q19. WJP to display number of occurrence of all character *
-
+package java_hackerthon;
+//Q18. WJP to display duplicate character in string *
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Q19_Freq_chars {
+public class Q18_duplicate_chars {
 	
 	public static void main(String[] args) {
 		
@@ -27,9 +27,24 @@ public class Q19_Freq_chars {
 			charCount.put(s.charAt(i), count);
 		}
 		
+		
 		System.out.println(charCount);
+		
 		System.out.println();
+		
+		System.out.println("The characters which occur more than once are:");
+		
+		for (Character c : charCount.keySet()) {
+			
+			Integer count = charCount.get(c);
+			
+			if (count > 1) {
+				System.out.println("'"+c+"':"+count+" times.");
+			}
+		}
+
 		  sc.close();
+		
 	}
 
 }

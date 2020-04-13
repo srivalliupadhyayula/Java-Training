@@ -1,9 +1,10 @@
-//Q18. WJP to display duplicate character in string *
+package java_hackerthon;
+//Q20. WJP to find total number of repeated integers, uppercase and lowercase character in the give string
 import java.util.HashMap;
 import java.util.Scanner;
 
-public class Q18_duplicate_chars {
-	
+public class Q20_repeated_digs_chars {
+
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -42,8 +43,8 @@ public class Q18_duplicate_chars {
 			}
 		}
 
+			
 		  sc.close();
-		
 	}
 
 }

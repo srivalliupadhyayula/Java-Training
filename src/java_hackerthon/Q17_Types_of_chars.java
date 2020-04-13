@@ -1,3 +1,4 @@
+package java_hackerthon;
 //Q17. WJP to find total number of integers, uppercase and lowercase character in the give string *
 import java.util.HashMap;
 import java.util.Scanner;

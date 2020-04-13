@@ -1,4 +1,4 @@
-package javahackerthon;
+package java_hackerthon;
 import java.util.Scanner;
 
 public class Q1 {

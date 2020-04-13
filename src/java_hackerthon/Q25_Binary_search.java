@@ -1,3 +1,4 @@
+package java_hackerthon;
 //Q25. Write a program for binary search. And 5 i/p has to take from user as binary elements
 
 import java.util.Scanner;

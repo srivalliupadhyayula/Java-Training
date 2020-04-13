@@ -1,3 +1,4 @@
+package java_hackerthon;
 //Q28. WJP to find factorial of a number using recursion *
 import java.util.Scanner;
 

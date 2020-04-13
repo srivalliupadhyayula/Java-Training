@@ -1,3 +1,4 @@
+package java_hackerthon;
 import java.util.Scanner;
 
 // Write a method that will remove given character from the String

@@ -1,3 +1,4 @@
+package java_hackerthon;
 import java.util.HashMap;
 import java.util.Scanner;
 

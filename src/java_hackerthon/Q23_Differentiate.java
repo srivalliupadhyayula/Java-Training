@@ -1,3 +1,4 @@
+package java_hackerthon;
 //Q23. WJP to differentiate input as string, int or bool *
 import java.util.Scanner;
 
